@@ -1,0 +1,77 @@
+/* resets*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-text-color: #324233;
+    --secondry-text-color: #719b8f;
+}
+body {
+    font-family: "Ubuntu", serif;
+    color: var(--primary-text-color);
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem
+}
+p {
+    font-size: 1.2rem;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+/* Utility class */
+.container {
+    max-width: 1020px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+/* header section */
+.header-section {
+    background-color: rgb(216, 216, 216);
+}
+.top-banner {
+    justify-content: space-between;
+    padding: 15px 0 20px 0;
+}
+.logo-img img {
+    width: 110px;
+}
+.icon {
+    font-size: 32px;
+    gap: 20px;
+}
+/* text section */
+.heading h1 {
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+/* feature section */
+.feature-section-container {
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.icons {
+    font-size: 25px;
+    gap: 20px;
+}
+.parah p {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: var(--secondry-text-color);
+    text-align: start;
+
+}
